@@ -1,28 +1,28 @@
 class Cortex < Formula
   desc "Local task tracker for supervising several AI coding agents at once"
   homepage "https://github.com/kalindudc/cortex"
-  version "0.99.0"
+  version "0.99.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kalindudc/cortex/releases/download/v0.99.0/cortex-0.99.0-darwin-arm64.tar.gz"
-      sha256 "1dadeb2fc57721bff9078d93014314da5aeeaf341e4ca865c94e453e77b3f710"
+      url "https://github.com/kalindudc/cortex/releases/download/v0.99.1/cortex-0.99.1-darwin-arm64.tar.gz"
+      sha256 "acabada3e036a002b82a02576b24b0c0579acc902806255a0bb33adcae8e9437"
     end
     on_intel do
-      url "https://github.com/kalindudc/cortex/releases/download/v0.99.0/cortex-0.99.0-darwin-x64.tar.gz"
-      sha256 "4373757495a296955b651122728e981ce965745ebf29e7b8cf118dcfc0c8d839"
+      url "https://github.com/kalindudc/cortex/releases/download/v0.99.1/cortex-0.99.1-darwin-x64.tar.gz"
+      sha256 "bb1baf08c632c97f0617856c375e268d9683129ab4bea9f52ffb36073d52e6ad"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kalindudc/cortex/releases/download/v0.99.0/cortex-0.99.0-linux-arm64.tar.gz"
-      sha256 "ec960c700c812ffc0384b3557c5f55abd8fee0cb6ed25996221620e8dc85f903"
+      url "https://github.com/kalindudc/cortex/releases/download/v0.99.1/cortex-0.99.1-linux-arm64.tar.gz"
+      sha256 "e4264e0a159029f0b27f1e8279a1290949323afd302d8bf2fa2fc0da85ec5935"
     end
     on_intel do
-      url "https://github.com/kalindudc/cortex/releases/download/v0.99.0/cortex-0.99.0-linux-x64.tar.gz"
-      sha256 "8d8aeb17ae143b7fe7b9b06c6f5608c70e6eb0cba8606a486d6113fe44e0f390"
+      url "https://github.com/kalindudc/cortex/releases/download/v0.99.1/cortex-0.99.1-linux-x64.tar.gz"
+      sha256 "2c2141e8350fec5570d186606a94822f8bf520253b15a3a74fd4102b767a17c7"
     end
   end
 
