@@ -1,28 +1,28 @@
 class Cortex < Formula
   desc "Local task tracker for supervising several AI coding agents at once"
   homepage "https://github.com/kalindudc/cortex"
-  version "0.110.2"
+  version "0.110.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kalindudc/cortex/releases/download/v0.110.2/cortex-0.110.2-darwin-arm64.tar.gz"
-      sha256 "22ac1f3ec557a78e44f9cbedbb609ea000a77b073d36ec19258229adf3ea47c7"
+      url "https://github.com/kalindudc/cortex/releases/download/v0.110.3/cortex-0.110.3-darwin-arm64.tar.gz"
+      sha256 "2233c317f8baf975b4ca213c9e90ea5f180265159f32a144cf6c5e8f4b414efe"
     end
     on_intel do
-      url "https://github.com/kalindudc/cortex/releases/download/v0.110.2/cortex-0.110.2-darwin-x64.tar.gz"
-      sha256 "90dec2bbef414a34bb7fb950a7b62f8ccb487f2496d1564c469c7525878cc75c"
+      url "https://github.com/kalindudc/cortex/releases/download/v0.110.3/cortex-0.110.3-darwin-x64.tar.gz"
+      sha256 "9de731a844735bdb35f91d03cd6d1bf0ad02f0690f4e406043adff183d0562b9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kalindudc/cortex/releases/download/v0.110.2/cortex-0.110.2-linux-arm64.tar.gz"
-      sha256 "e7c8f06289556ca3b6d96338784927bf3f8a6519f02be031da0f895e195756e4"
+      url "https://github.com/kalindudc/cortex/releases/download/v0.110.3/cortex-0.110.3-linux-arm64.tar.gz"
+      sha256 "95d344e41d9387b820307dc1340ea74d395b114552812fdd53ea5f650248b146"
     end
     on_intel do
-      url "https://github.com/kalindudc/cortex/releases/download/v0.110.2/cortex-0.110.2-linux-x64.tar.gz"
-      sha256 "dcffeffc35585d429597aab9de3e1ad41137ff02dcdf6df7cd8c6dd5c001bc44"
+      url "https://github.com/kalindudc/cortex/releases/download/v0.110.3/cortex-0.110.3-linux-x64.tar.gz"
+      sha256 "79ca9ea99747754335f2e6fa71a64a94ec7f8ccc26f87463f8a570257bb90f11"
     end
   end
 
@@ -34,7 +34,7 @@ class Cortex < Formula
     <<~EOS
       Create your database with `cortex init`, then set up your agents with `cortex agents install`.
       For the desktop app of the same version, run the install script for the app alone:
-        curl -fsSL https://github.com/kalindudc/cortex/releases/download/v0.110.2/install.sh | CORTEX_NO_CLI=1 sh
+        curl -fsSL https://github.com/kalindudc/cortex/releases/download/v0.110.3/install.sh | CORTEX_NO_CLI=1 sh
     EOS
   end
 
